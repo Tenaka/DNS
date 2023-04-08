@@ -6,6 +6,8 @@ Top level access to fully manage the DNS servers is via AT_DNS_MicrosoftDNS_Mana
 Requires: 
 AD powershell modules
 Update the OU DN to reflect where AD Groups will be created
+
+https://www.tenaka.net/post/delegation-of-dns-with-powershell
 #>
 
 Import-Module activedirectory    
